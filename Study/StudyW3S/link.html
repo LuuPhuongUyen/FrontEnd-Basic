@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<p>You can change the default colors of links</p>
+<!--target-->
+<p><a href="https://www.w3schools.com/html/" target="_top">Visit our HTML tutorial</a></p>
+<p><a href="html_images.asp">HTML Images</a> is a link to a page on this website.</p><!--Local Links-->
+<a href="html_images.asp" target="_blank">HTML Images</a><br/>
+<!--Image as Link-->
+<a href="https://www.w3schools.com/html/">
+    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0">
+</a><br/>
+<!--Link Titles-->
+<a style="color:slateblue;" href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">
+    Visit our HTML Tutorial</a><br/>
+<!--bookmark-->
+<a style="color:dimgrey;" href="#C2">Jump to Chapter 2</a>
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+<h2 id="C2">Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+<!--a full URL to link to a web page-->
+<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+</body>
+</html>

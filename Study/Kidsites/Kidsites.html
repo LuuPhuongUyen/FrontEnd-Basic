@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kidsites</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="draft.css">
+
+</head>
+<script>
+    function fReload() {
+        location.reload(true);
+    }</script>
+<body>
+<div class="header">
+    <div class="menu">
+        <!--<div class="logo" type="button" value="Reload Page" onClick="window.location.reload()">
+        <img src="logo.jpg"></div>    </div>-->
+        <div class="logo" type="button" value="Reload Page">
+            <img src="logo.jpg" onclick="fReload()"></div>
+        <nav id="nav">
+            <ul id="ul">
+                <li class="menu__line">Categories</li>
+                <li class="menu__line">About</li>
+                <li class="menu__line">Privacy</li>
+                <li class="menu__line">Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <img class="headerImg" src="banner.jpg"/>
+    <div class="content">
+        <div class="para">
+            <h1>Animals</h1>
+            <p class="title">American Kennel Club</p>
+            <p class="text">A great selection of breeds, photos, articles, and more for dog lovers.
+                Includes a special section just for kids, with information about responsible dog ownership and fun
+                activity and coloring pages.</p>
+            <p class="title">Animal names</p>
+            <p class="text">You may know that a doe is a female deer, but did you know that a female
+                swan is called a pen? You'll find many more names for animals, their babies and the groups they live in
+                at this site, plus information print outs on each.</p>
+        </div>
+        <div class="contentImg">
+            <p>Parters & Featured Sites</p>
+            <img src="img1.jpg" height="85" width="119"/>
+            <img src="img2.jpg" height="90" width="119"/>
+            <img src="img3.jpg" height="98" width="141"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

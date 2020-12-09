@@ -1,0 +1,33 @@
+header {
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffff00;
+    background-color: #cccccc;
+}
+
+nav a{
+    background-color: #999;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+aside {
+    display: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #9a9999;
+}
+
+.right {
+    background-color: #cccccc;
+}
+
+.right table {
+    margin: 0 auto;
+}
+
+th {
+    background-color: #ffff99;
+}
