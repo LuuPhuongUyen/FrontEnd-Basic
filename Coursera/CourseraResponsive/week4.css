@@ -1,0 +1,13 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row {
+    text-align:center;
+    margin-bottom: 10px;
+}
+.table{
+    margin-top: 10px;
+}
