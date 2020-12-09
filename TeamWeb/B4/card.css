@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px;
+    padding: 80px 30px;
+    width: 33.33%;
+    text-align: center;
+    font-size: 40px;
+}
+
+@media all and (max-width: 1000px) {
+    .card {
+        background: #0273ff;
+    }
+}
+@media all and (max-width: 500px){
+    .card{
+        background: #4CAF50;
+        width:80%;
+        margin:0 auto;
+    }
+    .wrapper{
+        display:block ;
+    }
+}

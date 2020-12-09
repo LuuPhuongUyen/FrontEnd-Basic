@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Responsive page</title>
+   <meta name="description" content="The HTML5 Herald">
+   <meta name="author" content="SitePoint">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="Responsive.css">
+</head>
+<body>
+<div class="header">
+   <div id="top">
+      <div class="logo">
+         <p>HOME</p>
+      </div>
+      <nav id="menu">
+         <ul id="ul">
+            <li class="item hide" id="exit" onclick="exit()">X</li>
+            <li class="item">WHAT WE DO </i></li>
+            <li class="item">TEAM</li>
+            <li class="item">CASE STUDIES</li>
+            <li class="item">RESOURCES</li>
+            <li class="item">BLOG</li>
+            <li id="menu__btn">
+               <button class="button">GET PROPOSAL</button>
+            </li>
+         </ul>
+      </nav>
+      <div id="dropdown" onclick="dropdown()" class="show">
+         <i class="fa fa-bars"></i>
+      </div>
+   </div>
+   <div class="headerImg">
+      <img src='rocket.png'>
+   </div>
+   <div class="content">
+      <p>Hi! Welcome to my <br> Responsive Page</p>
+      <form action="https://github.com/LuuPhuongUyen" target="_blank">
+      <button class="button bigger">GET MY PORTFOLIO</button>
+      </form>
+   </div>
+</div>
+</body>
+</html>
